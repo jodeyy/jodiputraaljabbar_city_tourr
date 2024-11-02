@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: Title(title: "City Tour"),
+      appBar: Title(title: "City Tour",color: Colors.black),
       body: SingleChildScrollView(
         child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
                     scrollDirection: Axis.horizontal,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(18),
-                     
+                     imageUrls
 
                     ),
                   )],
